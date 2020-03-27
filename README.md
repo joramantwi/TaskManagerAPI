@@ -1,6 +1,6 @@
 # Task Manager -
 
-This simple task manager build with Node.js. It includes the CRUD functions of creating, requesting, deleting and updating a task.
+This is a simple task manager build with Node.js and Express. It includes CRUD functions of creating, requesting, deleting and updating a task.
 
 ### Installing dependencies
 
