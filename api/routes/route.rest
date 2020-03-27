@@ -1,0 +1,35 @@
+GET http://localhost:2020/tasks
+
+###
+
+GET http://localhost:2020/tasks/localhost:2020/tasks/5e7df8be3a9c5f13d8a73e33
+
+###
+
+POST http://localhost:2020/tasks
+Content-Type: application/json
+
+{
+    "name": "Send Email",
+    "DueDate": "27-03-2020",
+    "CompletionDate": "27-03-2020" , 
+    "Status": "In Progress"
+}
+
+###
+
+DELETE http://localhost:2020/tasks/5e7df994fa49582ef0bb8255
+
+###
+
+PATCH  http://localhost:2020/tasks/5e7df8be3a9c5f13d8a73e33
+Content-Type: application/json
+
+{
+    "name": "Test",
+    "DueDate": "27-03-2020",
+    "CompletionDate": "27-03-2020" , 
+    "Status": "Done"
+}
+
+
